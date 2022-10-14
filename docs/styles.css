@@ -2,6 +2,7 @@ body {
   background-color: #1d2326;
   color: #bfa38a;
   font-family: monospace;
+  line-height: 2;
 }
 
 main {
@@ -15,6 +16,7 @@ p {
 
 a {
   color: white;
+  font-size: 1.2rem;
 }
 
 a:hover {
