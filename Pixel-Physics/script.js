@@ -48,13 +48,6 @@ class Particle {
         (this.velx *= this.friction) + (this.originX - this.x) * this.ease;
       this.y +=
         (this.vely *= this.friction) + (this.originY - this.y) * this.ease;
-
-      if (this.x + this.size > this.effect.width || this.x < 0) {
-        this.velx *= -1;
-      }
-      if (this.y + this.size > this.effect.height || this.y < 0) {
-        this.vely *= -1;
-      }
     }
   }
 
