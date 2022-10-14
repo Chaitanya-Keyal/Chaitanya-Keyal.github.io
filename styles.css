@@ -1,0 +1,39 @@
+body {
+  background-color: #1d2326;
+  color: #bfa38a;
+  font-family: monospace;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+p {
+  color: #c0e1e3;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+button {
+  width: 200px;
+  max-width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 35px;
+  border: 1px solid #bfa38a;
+  background: transparent;
+  color: #bfa38a;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #ffffff1a;
+}
