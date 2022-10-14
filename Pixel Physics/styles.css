@@ -1,0 +1,51 @@
+html,
+body {
+  background-color: #312e48;
+  font-size: 16px;
+  color: #b8bfcc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Fuzzy Bubbles", cursive;
+}
+
+#canvas1 {
+  position: absolute;
+}
+
+.controls {
+  position: absolute;
+  display: flex;
+  width: 100vw;
+  flex-wrap: wrap;
+}
+
+img {
+  display: none;
+}
+
+button,
+::-webkit-file-upload-button {
+  background: #312e48;
+  border: 1px solid #b8bfcc;
+  border-radius: 10px;
+  color: #b8bfcc;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover,
+::-webkit-file-upload-button:hover {
+  background: #b8bfcc;
+  color: #312e48;
+}
+
+#imageUpload {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
